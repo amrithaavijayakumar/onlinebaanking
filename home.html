@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <img src="https://news4tamil.com/wp-content/uploads/2023/07/How-Do-Banks-Raise-Funding_Blog-banner_511x271-3.png" width="100%" alt=""> -->
+    <div class="row">
+        <div class="col-12">
+            <header style="background-color: rgb(167, 152, 152);">
+            <P>HOME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FEATURES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</P>
+        <button style="float: right;" onclick="logout()"><img src="https://www.iconpacks.net/icons/2/free-user-logout-icon-3056-thumb.png" width="50px" height="50px"  alt=""></button></header>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-6" style="border:1px solid red;">
+        <form action="">
+            <h1>DEPOSIT</h1>
+            <input type="text" name="" id="dep" placeholder="AMOUNT TO BE DEPOSIT" class="form-control"><br>
+            <input type="text" name="" id="pswdd" placeholder="PASSWORD" class="form-control"><br>
+            <button onclick="deposit()">DEPOSIT</button>
+            
+        </form>
+    </div>
+    
+    <div class="col-6" style="border:1px solid red;"><form action="">
+        <h1>WITHDRAW</h1>
+        <input type="text" name="" id="with" placeholder="AMOUNT TO BE WITHDRAWN" class="form-control"><br>
+        <input type="text" name="" id="ps" placeholder="PASSWORD" class="form-control"><br>
+        <button onclick="withdraw()">WITHDRAW</button>
+        
+        
+    </form></div>
+    
+</div><center>
+<p>Your Balance: $<span id="balance"></span></p></center>
+<div>
+    <img src="https://news4tamil.com/wp-content/uploads/2023/07/How-Do-Banks-Raise-Funding_Blog-banner_511x271-3.png" width="100%" alt="">
+</div>
+   
+</body>
+<script src="./home.js"></script>
+</html>
